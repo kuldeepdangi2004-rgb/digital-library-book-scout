@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+}
+
+header {
+  background: #4e73df;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #4e73df, #1cc88a);
+  color: white;
+}
+
+.btn {
+  background: white;
+  padding: 10px 20px;
+  color: #4e73df;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.books-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.book-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+.book-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.chat-container {
+  width: 400px;
+  margin: 40px auto;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.chatbox {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.input-area {
+  display: flex;
+  margin-top: 10px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+}
+
+.input-area button {
+  padding: 10px;
+  background: #1cc88a;
+  color: white;
+  border: none;
+}
+/* ABOUT HERO */
+
+.about-hero{
+text-align:center;
+padding:80px 20px;
+background:linear-gradient(to right,#4e73df,#1cc88a);
+color:white;
+}
+
+.about-hero h2{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.btn{
+background:white;
+color:#4e73df;
+padding:12px 25px;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
+
+
+/* ABOUT SECTION */
+
+.about-section{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:40px;
+padding:50px;
+flex-wrap:wrap;
+}
+
+.about-text{
+max-width:500px;
+}
+
+.about-image img{
+width:400px;
+border-radius:10px;
+}
+
+
+/* FACILITIES */
+
+.facilities{
+text-align:center;
+padding:60px 20px;
+background:#f4f6f9;
+}
+
+.facility-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.facility-card{
+background:white;
+width:250px;
+padding:25px;
+border-radius:10px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.facility-card:hover{
+transform:translateY(-5px);
+}
+
+.facility-card button{
+margin-top:15px;
+padding:10px 20px;
+background:#1cc88a;
+border:none;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#2c3e50;
+color:white;
+}

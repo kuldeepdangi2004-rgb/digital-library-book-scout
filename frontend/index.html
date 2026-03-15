@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Library Book scout</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>📚 Library Book scout </h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="Book.html">Books</a>
+    <a href="about.html">About</a>
+    <a href="chatbot.html">Chatbot</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Welcome to Our Digital Library</h2>
+  <p>Explore thousands of academic books and get instant help from our AI Assistant.</p>
+  <a href="Book.html" class="btn">Explore Books</a>
+</section>
+
+<footer>
+  <p>© 2026 Smart Library | Powered by IBM Watson</p>
+</footer>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "faa89eb9-5e28-4d3f-8607-5da0960a322b", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "75095f08-8cc7-4a7a-83b2-3043a63f1581", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "faa89eb9-5e28-4d3f-8607-5da0960a322b", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "75095f08-8cc7-4a7a-83b2-3043a63f1581", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+</body>
+</html>
